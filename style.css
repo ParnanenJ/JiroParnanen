@@ -190,6 +190,16 @@ margin-top: 1rem;
 color: var(--accent);
 }
 
+.image-container {
+  width: 100%;
+  max-width: 800px; /* valinnainen */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto; /* säilyttää kuvasuhteen */
+  display: block; /* poistaa pienen välin alle */
+}
 
 /* Footer */
 footer {
